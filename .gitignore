@@ -1,0 +1,17 @@
+# Diretório de plugins baixados pelo terraform init
+.terraform/
+
+# Arquivos de estado (contêm dados sensíveis da infraestrutura)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Arquivo de variáveis com valores reais (manter apenas o .example versionado).
+# Descomente a linha abaixo se for preencher terraform.tfvars com dados sensíveis.
+# terraform.tfvars
+*.auto.tfvars
+
+# Logs temporários de validação
+*.log
+*.exit.txt

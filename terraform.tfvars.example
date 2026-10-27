@@ -1,0 +1,14 @@
+# terraform.tfvars.example
+# Exemplo de valores para o projeto. Renomeie para "terraform.tfvars" e
+# ajuste conforme necessário.
+#
+# NÃO inclua credenciais AWS (access_key/secret_key) nem tokens aqui.
+# As credenciais são lidas do ambiente (AWS CLI, perfil, variáveis de
+# ambiente ou role assumida).
+
+aws_region            = "sa-east-1"
+project_name          = "irede-mvp-1"
+vpc_cidr              = "10.0.0.0/16"
+public_subnet_cidr    = "10.0.1.0/24"
+private_subnet_1_cidr = "10.0.2.0/24"
+private_subnet_2_cidr = "10.0.3.0/24"
